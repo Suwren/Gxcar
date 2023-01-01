@@ -1,0 +1,3 @@
+/home/pi/GXcar/build/CMakeFiles/rebuild_cache.dir
+/home/pi/GXcar/build/CMakeFiles/edit_cache.dir
+/home/pi/GXcar/build/CMakeFiles/GXcar.dir
