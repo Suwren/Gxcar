@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/GXcar
+CMAKE_SOURCE_DIR = /home/pi/myproject_cpp/GXcar
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/GXcar/build
+CMAKE_BINARY_DIR = /home/pi/myproject_cpp/GXcar/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/GXcar.dir/depend.make
@@ -78,42 +78,42 @@ include CMakeFiles/GXcar.dir/flags.make
 
 CMakeFiles/GXcar.dir/src/ObjectDetected.cpp.o: CMakeFiles/GXcar.dir/flags.make
 CMakeFiles/GXcar.dir/src/ObjectDetected.cpp.o: ../src/ObjectDetected.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/GXcar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GXcar.dir/src/ObjectDetected.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GXcar.dir/src/ObjectDetected.cpp.o -c /home/pi/GXcar/src/ObjectDetected.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/myproject_cpp/GXcar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GXcar.dir/src/ObjectDetected.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GXcar.dir/src/ObjectDetected.cpp.o -c /home/pi/myproject_cpp/GXcar/src/ObjectDetected.cpp
 
 CMakeFiles/GXcar.dir/src/ObjectDetected.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GXcar.dir/src/ObjectDetected.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/GXcar/src/ObjectDetected.cpp > CMakeFiles/GXcar.dir/src/ObjectDetected.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/myproject_cpp/GXcar/src/ObjectDetected.cpp > CMakeFiles/GXcar.dir/src/ObjectDetected.cpp.i
 
 CMakeFiles/GXcar.dir/src/ObjectDetected.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GXcar.dir/src/ObjectDetected.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/GXcar/src/ObjectDetected.cpp -o CMakeFiles/GXcar.dir/src/ObjectDetected.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/myproject_cpp/GXcar/src/ObjectDetected.cpp -o CMakeFiles/GXcar.dir/src/ObjectDetected.cpp.s
 
 CMakeFiles/GXcar.dir/src/ReadQRCode.cpp.o: CMakeFiles/GXcar.dir/flags.make
 CMakeFiles/GXcar.dir/src/ReadQRCode.cpp.o: ../src/ReadQRCode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/GXcar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GXcar.dir/src/ReadQRCode.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GXcar.dir/src/ReadQRCode.cpp.o -c /home/pi/GXcar/src/ReadQRCode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/myproject_cpp/GXcar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GXcar.dir/src/ReadQRCode.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GXcar.dir/src/ReadQRCode.cpp.o -c /home/pi/myproject_cpp/GXcar/src/ReadQRCode.cpp
 
 CMakeFiles/GXcar.dir/src/ReadQRCode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GXcar.dir/src/ReadQRCode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/GXcar/src/ReadQRCode.cpp > CMakeFiles/GXcar.dir/src/ReadQRCode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/myproject_cpp/GXcar/src/ReadQRCode.cpp > CMakeFiles/GXcar.dir/src/ReadQRCode.cpp.i
 
 CMakeFiles/GXcar.dir/src/ReadQRCode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GXcar.dir/src/ReadQRCode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/GXcar/src/ReadQRCode.cpp -o CMakeFiles/GXcar.dir/src/ReadQRCode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/myproject_cpp/GXcar/src/ReadQRCode.cpp -o CMakeFiles/GXcar.dir/src/ReadQRCode.cpp.s
 
 CMakeFiles/GXcar.dir/src/main.cpp.o: CMakeFiles/GXcar.dir/flags.make
 CMakeFiles/GXcar.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/GXcar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GXcar.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GXcar.dir/src/main.cpp.o -c /home/pi/GXcar/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/myproject_cpp/GXcar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GXcar.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GXcar.dir/src/main.cpp.o -c /home/pi/myproject_cpp/GXcar/src/main.cpp
 
 CMakeFiles/GXcar.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GXcar.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/GXcar/src/main.cpp > CMakeFiles/GXcar.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/myproject_cpp/GXcar/src/main.cpp > CMakeFiles/GXcar.dir/src/main.cpp.i
 
 CMakeFiles/GXcar.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GXcar.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/GXcar/src/main.cpp -o CMakeFiles/GXcar.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/myproject_cpp/GXcar/src/main.cpp -o CMakeFiles/GXcar.dir/src/main.cpp.s
 
 # Object files for target GXcar
 GXcar_OBJECTS = \
@@ -128,62 +128,24 @@ GXcar: CMakeFiles/GXcar.dir/src/ObjectDetected.cpp.o
 GXcar: CMakeFiles/GXcar.dir/src/ReadQRCode.cpp.o
 GXcar: CMakeFiles/GXcar.dir/src/main.cpp.o
 GXcar: CMakeFiles/GXcar.dir/build.make
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_gapi.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_stitching.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_aruco.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_barcode.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_bgsegm.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_bioinspired.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_ccalib.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_dnn_objdetect.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_dnn_superres.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_dpm.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_face.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_freetype.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_fuzzy.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_hfs.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_img_hash.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_intensity_transform.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_line_descriptor.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_mcc.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_quality.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_rapid.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_reg.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_rgbd.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_saliency.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_stereo.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_structured_light.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_superres.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_surface_matching.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_tracking.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_videostab.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_wechat_qrcode.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_xfeatures2d.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_xobjdetect.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_xphoto.so.4.5.5
-GXcar: /usr/lib/libwiringPi.so
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_shape.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_highgui.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_datasets.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_plot.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_text.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_ml.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_phase_unwrapping.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_optflow.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_ximgproc.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_video.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_videoio.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_imgcodecs.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_objdetect.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_calib3d.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_dnn.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_features2d.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_flann.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_photo.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_imgproc.so.4.5.5
-GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_core.so.4.5.5
+GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_gapi.so.4.5.3
+GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_highgui.so.4.5.3
+GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_ml.so.4.5.3
+GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_objdetect.so.4.5.3
+GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_photo.so.4.5.3
+GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_stitching.so.4.5.3
+GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_video.so.4.5.3
+GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_videoio.so.4.5.3
+GXcar: /usr/local/lib/libwiringPi.so
+GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_dnn.so.4.5.3
+GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_imgcodecs.so.4.5.3
+GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_calib3d.so.4.5.3
+GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_features2d.so.4.5.3
+GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_flann.so.4.5.3
+GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_imgproc.so.4.5.3
+GXcar: /usr/local/lib/arm-linux-gnueabihf/libopencv_core.so.4.5.3
 GXcar: CMakeFiles/GXcar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/GXcar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable GXcar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/myproject_cpp/GXcar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable GXcar"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GXcar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -196,6 +158,6 @@ CMakeFiles/GXcar.dir/clean:
 .PHONY : CMakeFiles/GXcar.dir/clean
 
 CMakeFiles/GXcar.dir/depend:
-	cd /home/pi/GXcar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/GXcar /home/pi/GXcar /home/pi/GXcar/build /home/pi/GXcar/build /home/pi/GXcar/build/CMakeFiles/GXcar.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/myproject_cpp/GXcar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/myproject_cpp/GXcar /home/pi/myproject_cpp/GXcar /home/pi/myproject_cpp/GXcar/build /home/pi/myproject_cpp/GXcar/build /home/pi/myproject_cpp/GXcar/build/CMakeFiles/GXcar.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/GXcar.dir/depend
 

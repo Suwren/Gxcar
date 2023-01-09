@@ -38,7 +38,6 @@ CMakeFiles/GXcar.dir/src/ObjectDetected.cpp.o: /usr/local/include/opencv4/opencv
 CMakeFiles/GXcar.dir/src/ObjectDetected.cpp.o: /usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp
 CMakeFiles/GXcar.dir/src/ObjectDetected.cpp.o: /usr/local/include/opencv4/opencv2/objdetect.hpp
 CMakeFiles/GXcar.dir/src/ObjectDetected.cpp.o: /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp
-CMakeFiles/GXcar.dir/src/ObjectDetected.cpp.o: /usr/local/include/opencv4/opencv2/objdetect/face.hpp
 CMakeFiles/GXcar.dir/src/ObjectDetected.cpp.o: /usr/local/include/opencv4/opencv2/opencv_modules.hpp
 CMakeFiles/GXcar.dir/src/ObjectDetected.cpp.o: /usr/local/include/opencv4/opencv2/videoio.hpp
 
@@ -79,7 +78,6 @@ CMakeFiles/GXcar.dir/src/ReadQRCode.cpp.o: /usr/local/include/opencv4/opencv2/im
 CMakeFiles/GXcar.dir/src/ReadQRCode.cpp.o: /usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp
 CMakeFiles/GXcar.dir/src/ReadQRCode.cpp.o: /usr/local/include/opencv4/opencv2/objdetect.hpp
 CMakeFiles/GXcar.dir/src/ReadQRCode.cpp.o: /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp
-CMakeFiles/GXcar.dir/src/ReadQRCode.cpp.o: /usr/local/include/opencv4/opencv2/objdetect/face.hpp
 CMakeFiles/GXcar.dir/src/ReadQRCode.cpp.o: /usr/local/include/opencv4/opencv2/opencv_modules.hpp
 CMakeFiles/GXcar.dir/src/ReadQRCode.cpp.o: /usr/local/include/opencv4/opencv2/videoio.hpp
 
@@ -120,7 +118,6 @@ CMakeFiles/GXcar.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/imgproc.
 CMakeFiles/GXcar.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp
 CMakeFiles/GXcar.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/objdetect.hpp
 CMakeFiles/GXcar.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp
-CMakeFiles/GXcar.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/objdetect/face.hpp
 CMakeFiles/GXcar.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/opencv_modules.hpp
 CMakeFiles/GXcar.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/videoio.hpp
 

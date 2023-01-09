@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/pi/GXcar/include -isystem /usr/local/include/opencv4
+CXX_INCLUDES = -I/home/pi/myproject_cpp/GXcar/include -isystem /usr/local/include/opencv4
 
 CXX_FLAGS = 
 

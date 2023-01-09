@@ -16,13 +16,13 @@
 using namespace std;
 using namespace cv;
 
-#define blue_low Scalar(100,43,46)
-#define blue_up Scalar(124,255,255)
-#define green_low Scalar(35,43,46)
-#define green_up Scalar(90,255,255)
-#define red_low1 Scalar(0,43,46)
-#define red_low2 Scalar(156,43,46)
-#define red_up1 Scalar(5,255,255)
+#define blue_low Scalar(100,119,93)
+#define blue_up Scalar(120,255,255)
+#define green_low Scalar(40,50,50)
+#define green_up Scalar(88,255,255)
+#define red_low1 Scalar(1,43,46)
+#define red_low2 Scalar(165,78,104)
+#define red_up1 Scalar(0,255,255)
 #define red_up2 Scalar(180,255,255)
 
 
@@ -35,6 +35,6 @@ void catch_object(Mat& img, vector<string> data, int fd, VideoCapture video);
 void Color_Detected_circle(Mat &srcImg,Mat &dstImg,char Color);
 void objectplace(Mat& src,Mat& the,String& message);
 void objectplace_2(Mat& src,Mat& thre,String& message);
-void objectplace_H(Mat& src,String& message);
-void objectplace_H_2(Mat& src,String& message);
+void objectplace_H(Mat& src,String& message, VideoCapture video);
+void objectplace_H_2(Mat& src,String& message, VideoCapture video);
 #endif //ENGINEERING_TRAINING_HEADFILE_H

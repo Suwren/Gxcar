@@ -63,10 +63,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/GXcar
+CMAKE_SOURCE_DIR = /home/pi/myproject_cpp/GXcar
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/GXcar/build
+CMAKE_BINARY_DIR = /home/pi/myproject_cpp/GXcar/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -93,14 +93,14 @@ clean: CMakeFiles/GXcar.dir/clean
 CMakeFiles/GXcar.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GXcar.dir/build.make CMakeFiles/GXcar.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GXcar.dir/build.make CMakeFiles/GXcar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/GXcar/build/CMakeFiles --progress-num=1,2,3,4 "Built target GXcar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/myproject_cpp/GXcar/build/CMakeFiles --progress-num=1,2,3,4 "Built target GXcar"
 .PHONY : CMakeFiles/GXcar.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/GXcar.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/GXcar/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/myproject_cpp/GXcar/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/GXcar.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/GXcar/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/myproject_cpp/GXcar/build/CMakeFiles 0
 .PHONY : CMakeFiles/GXcar.dir/rule
 
 # Convenience name for target.

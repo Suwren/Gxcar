@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pi/GXcar/src/ObjectDetected.cpp" "/home/pi/GXcar/build/CMakeFiles/GXcar.dir/src/ObjectDetected.cpp.o"
-  "/home/pi/GXcar/src/ReadQRCode.cpp" "/home/pi/GXcar/build/CMakeFiles/GXcar.dir/src/ReadQRCode.cpp.o"
-  "/home/pi/GXcar/src/main.cpp" "/home/pi/GXcar/build/CMakeFiles/GXcar.dir/src/main.cpp.o"
+  "/home/pi/myproject_cpp/GXcar/src/ObjectDetected.cpp" "/home/pi/myproject_cpp/GXcar/build/CMakeFiles/GXcar.dir/src/ObjectDetected.cpp.o"
+  "/home/pi/myproject_cpp/GXcar/src/ReadQRCode.cpp" "/home/pi/myproject_cpp/GXcar/build/CMakeFiles/GXcar.dir/src/ReadQRCode.cpp.o"
+  "/home/pi/myproject_cpp/GXcar/src/main.cpp" "/home/pi/myproject_cpp/GXcar/build/CMakeFiles/GXcar.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
